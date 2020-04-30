@@ -1,0 +1,122 @@
+ 
+ body {
+	line-height:1;
+	font-size:100%;
+	font-family:'Open Sans', sans-serif;
+	color:#5a5a5a;
+	background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/background-template-wall-art-design-e200b33cc1738d18a8454c1d456ef24c_screen.jpg?ts=1561425808);
+	}
+	
+	#container {
+	width:980px;
+	margin:0 auto;
+	box-shadow:0 0 1em #CCCCCC;
+	}
+
+nav {
+		display:block;
+		background-color:#1f5faa;
+	}
+
+	nav ul {
+	list-style-type:none;
+	}
+	
+	nav ul li {
+	float:left;
+	}
+	
+	nav li a {
+	padding:15px 30px;
+	display:block;
+	color:#fff;
+	font-size:14px;
+	text-decoration:none;
+	font-weight:bold;
+	}
+nav .active a,
+	nav li:hover a {
+	background-color:#2b83ea;
+	}
+	
+	nav:after, nav:before {
+		content:'';
+		display:table;
+	}
+
+	nav:after {
+	clear:both;
+	}
+	
+footer {
+	clear:both;
+	background-color:#1d1d1d;
+	padding:20px;
+	color:#eee;
+	font-size: 12px;
+	}
+
+.box {
+	 display:block;
+	float:left;
+	width:33.333333%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding:0 10px;
+	text-align:center;
+	}
+	
+	.box h3 {
+	margin:15px 0;
+	}
+	
+	.box p {
+	line-height:20px;
+	font-size:14px;
+	margin-bottom:15px;
+	}
+	
+	.box img {
+	border:0;
+	vertical-align:middle;
+	}
+	
+	.image-circle {
+	border-radius:50%;
+	}
+	
+	.row {
+	margin:0 -10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	}
+	
+	.row:after, .row:before,
+	.entry:after, .entry:before {
+	content:'';
+	display:table;
+	}
+	
+	.row:after,
+	.entry:after {
+	clear:both;
+	}
+	
+	
+	.divider {
+	border:0;
+	border-top:1px solid #eeeeee;
+	margin:40px 0;
+	}
+
+* {
+	margin:0;
+	padding:0;
+	}
+
+section {
+	font-size: 20px;
+	font-color: white;
+}
